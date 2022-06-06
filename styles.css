@@ -1,0 +1,182 @@
+/* Global */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */ 
+.header {
+    background-color: #051094;
+    min-height: 10vh;
+    min-width: 100vw;
+}
+
+.nav {
+    margin-left: 5vw;
+}
+
+.nav a {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.nav h1 {
+    color: white;
+    font-size: 18px;
+}
+
+.nav p {
+    color: white;
+}
+
+/* Intro Section */
+
+.hero {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.heroLeft {
+    background-color: #051094;
+    padding: 10vh 10vw 10vh 10vw;
+    width: 50%;
+}
+
+.heroLeft h1 {
+    color: white;
+    font-size: 5vw;
+    padding-bottom: 3vh;
+}
+
+.heroLeft p {
+    color: white;
+    display: inline;
+    font-size: 1.2vw;
+}
+
+.heroRight {
+    background-color: #051094;
+    display: inline-block;
+    width: 50%;
+}
+
+/* Sections */
+
+.fullWidthTitle {
+    margin: 1vh 0;
+}
+
+.fullWidthTitle h1 {
+    background-color: #051094;
+    color: white; 
+    font-size: 2vw;
+    width: 100vw;
+    padding: 1vh 0 1vh 5vw;
+    margin: 1vh 0 0;
+}
+
+/* Half Section */
+
+.halfSection {
+    padding: 0;
+    margin: 0;    
+    display: flex;
+    flex-direction: row;
+}
+
+.halfSectionCode {
+    border: 3px #051094 solid;
+    width: 50%;
+    margin-left: 0.5vw;
+    margin-right: 0.25vw;
+    padding: 3%;
+    font-weight: bold;
+    color: #051094;
+}
+
+.halfSectionCode h2 {
+    margin-bottom: 2.5vh;
+    font-size: 2.2rem;
+}
+
+.halfSectionExample {
+    background-color: #051094;
+    color: white;
+    width: 50%;
+    margin-left: 0.25vw;
+    margin-right: 0.5vw;
+    padding: 3%;
+    overflow: scroll;
+}
+
+.halfSectionExample h2 {
+    margin-bottom: 2.5vh;
+    font-size: 2.2rem;
+}
+
+/* 1/3 Section */
+
+.thirdSection {
+    padding: 0;
+    margin: 0;    
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdSectionHTML {
+    border: 3px #051094 solid;
+    width: calc(100% / 3);
+    margin-left: 0.5vw;
+    margin-right: 0.25vw;
+    font-weight: bold;
+    padding: 3%;
+    color: #051094;
+}
+
+.thirdSectionHTML h2 {
+    margin-bottom: 2.5vh;
+    font-size: 2.2rem;
+}
+
+.thirdSectionExample {
+    background-color: #051094;
+    color: white;
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
+    width: calc(100% / 3);
+    padding: 3%;
+    overflow: scroll;
+}
+
+.thirdSectionExample h2 {
+    margin-bottom: 2.5vh;
+    font-size: 2.2rem;
+}
+
+.thirdSectionCSS {
+    border: 3px #051094 solid;
+    width: calc(100% / 3);
+    margin-left: 0.25vw;
+    margin-right: 0.5vw;
+    font-weight: bold;
+    color: #051094;
+    padding: 3%;
+}
+
+.thirdSectionCSS h2 {
+    margin-bottom: 2.5vh;
+    font-size: 2.2rem;
+}
